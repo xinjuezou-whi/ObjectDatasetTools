@@ -193,111 +193,111 @@ python register_segmented.py LINEMOD/sugar
 
 1. 删除不感兴趣的背景，
 
-   ![01](screenshot\01.png)
+   ![01](screenshot/01.png)
 
-   ![02](screenshot\02.png)
+   ![02](screenshot/02.png)
 
-   ![03](screenshot\03.png)
+   ![03](screenshot/03.png)
 
-   ![04](screenshot\04.png)
+   ![04](screenshot/04.png)
 
-   ![05](screenshot\05.png)
+   ![05](screenshot/05.png)
 
-   ![06](screenshot\06.png)
+   ![06](screenshot/06.png)
 
-   ![07](screenshot\07.png)
+   ![07](screenshot/07.png)
 
-   ![08](screenshot\08.png)
+   ![08](screenshot/08.png)
 
-   ![09](screenshot\09.png)
-
-   
-
-   ![10](screenshot\10.png)
-
-   ![11](screenshot\11.png)
-
-   ![12](screenshot\12.png)
-
-   ![13](screenshot\13.png)
-
-   ![14](screenshot\14.png)
+   ![09](screenshot/09.png)
 
    
 
-   ![15](screenshot\15.png)
+   ![10](screenshot/10.png)
 
-   ![16](screenshot\16.png)
+   ![11](screenshot/11.png)
+
+   ![12](screenshot/12.png)
+
+   ![13](screenshot/13.png)
+
+   ![14](screenshot/14.png)
+
+   
+
+   ![15](screenshot/15.png)
+
+   ![16](screenshot/16.png)
 
    
 
 2. 执行表面重建并完成缺失的一侧，反之亦然，
 
-   ![17](screenshot\17.png)
+   ![17](screenshot/17.png)
 
    
 
-   ![18](screenshot\18.png)
+   ![18](screenshot/18.png)
 
    
 
-   ![19](screenshot\19.png)
+   ![19](screenshot/19.png)
 
    
 
-   ![20](screenshot\20.png)
+   ![20](screenshot/20.png)
 
    
 
-   ![21](screenshot\21.png)
+   ![21](screenshot/21.png)
 
    
 
    
 
-   ![22](screenshot\22.png)
+   ![22](screenshot/22.png)
 
    
 
 3. 处理重建的网格（您可能需要切掉部分并重新完成缺失的一侧），
 
-   ![23](screenshot\23.png)
+   ![23](screenshot/23.png)
 
    
 
-   ![24](screenshot\24.png)
+   ![24](screenshot/24.png)
 
    
 
-   ![26](screenshot\26.png)
+   ![26](screenshot/26.png)
 
    
 
-   ![27](screenshot\27.png)
+   ![27](screenshot/27.png)
 
    
 
-   ![28](screenshot\28.png)
+   ![28](screenshot/28.png)
 
    
 
-   ![29](screenshot\29.png)
+   ![29](screenshot/29.png)
 
    
 
-   ![30](screenshot\30.png)
+   ![30](screenshot/30.png)
 
    
 
-   ![31](screenshot\31.png)
+   ![31](screenshot/31.png)
 
    
 
-   ![32](screenshot\32.png)
+   ![32](screenshot/32.png)
 
    
 
-   ![33](screenshot\33.png)
+   ![33](screenshot/33.png)
 
    
 
@@ -305,19 +305,19 @@ python register_segmented.py LINEMOD/sugar
 
 4. 确保处理后的网格没有任何孤立的噪音，并保存模型。
 
-   ![34](screenshot\34.png)
+   ![34](screenshot/34.png)
 
    
 
-   ![35](screenshot\35.png)
+   ![35](screenshot/35.png)
 
    
 
-   ![36](screenshot\36.png)
+   ![36](screenshot/36.png)
 
    
 
-   ![37](screenshot\37.png)
+   ![37](screenshot/37.png)
 
    
 
@@ -325,7 +325,7 @@ python register_segmented.py LINEMOD/sugar
 
 最终产品是三角形网格，而不是算法生成的注册点云。
 
-![38](screenshot\38.png)
+![38](screenshot/38.png)
 
 可以查看我录制的[这个](https://www.youtube.com/watch?v=BPX-j9xE2EQ)非常基础的教程。
 
