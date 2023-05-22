@@ -123,7 +123,7 @@ pip install pyrealsense2 -i https://pypi.tuna.tsinghua.edu.cn/simple
 
 **在 arucomarkers 文件夹中使用正确大小的 aruco 标记（ID 1-13）彩色**打印 pdf。如图所示，在感兴趣的对象周围粘贴标记，确保您没有带有重复 IDS 的标记。
 
-![BackFlow](C:/Users/macpro/Downloads/ObjectDatasetTools/doc/setup.png)
+![BackFlow](doc/setup.png)
 
 ### 二. 使用深度相机生成彩色图跟深度图
 
@@ -171,7 +171,7 @@ python register_scene.py LINEMOD/sugar
 
 原始的 registeredScene.ply 将保存在指定目录下（例如，LINEMOD/sugar）。registeredScene.ply 是场景的注册点云，包括桌面、标记和扫描期间暴露的任何其他对象，并进行了一定程度的噪声消除。生成的网格看起来像这样，需要在第 5 步中进行手动处理：
 
-![BackFlow](C:/Users/macpro/Downloads/ObjectDatasetTools/doc/unsegmented.png)
+![BackFlow](doc/unsegmented.png)
 
 或者，您可以尝试通过使用 register_segmented 而不是 register_scene 来跳过所有手动操作。（这个效果极差 笔者使用的是register_scene 手动处理注册点云）
 
@@ -183,7 +183,7 @@ python register_segmented.py LINEMOD/sugar
 
 但是，register_segmented 可能会失败，因为它使用一些特殊的方法来分割背景，因此您可能需要调整一些参数才能使其与您的对象一起使用。要调整的最重要的旋钮是“MAX_RADIUS”，它会切断任何深度读数，其欧几里得到观察到的 aruco 标记中心的距离长于指定值。此值当前设置为 0.2 m，如果您有更大的对象，您可能需要增加此值以不切断对象的部分。运行 register_segmented 的结果如下所示：
 
-![BackFlow](C:/Users/macpro/Downloads/ObjectDatasetTools/doc/segmented.png)
+![BackFlow](doc/segmented.png)
 
 ### 五.手动处理注册的点云（可选）
 
